@@ -1,0 +1,8 @@
+@import "../variables";
+@import "../placeholders";
+
+.footerIconTextWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

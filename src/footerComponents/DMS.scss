@@ -1,0 +1,22 @@
+@import "../variables";
+@import "../placeholders";
+
+.dms {
+    color: #7B7B7B;
+    font-size: $xxsmall;
+    font-weight: $normalWeight;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 50px;
+    padding-left: 10px;
+    &__text {
+        margin: 0;
+    }
+    &__title {
+        margin: 0;
+        font-weight: $boldWeight;
+        font-size: $mediumLarge;
+
+    }
+}

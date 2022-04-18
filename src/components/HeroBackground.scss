@@ -1,0 +1,33 @@
+@import "../variables";
+@import "../placeholders";
+
+.heroBackground {
+    height: 36vw;
+    position: relative;
+    background-image: url("../img/heropic.png");
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.37);
+    }
+    .searchField{
+        background-color: white;
+        z-index: 1;
+        padding: 25px 25px;
+        margin-bottom: 40px;
+        &__main {
+            display: flex;
+            z-index: 1;
+
+            
+        }
+    } 
+}

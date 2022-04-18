@@ -1,0 +1,9 @@
+@import "../variables";
+@import "../placeholders";
+
+.footerSingleText {
+    color: $veryDark;
+    font-size:$xsmall;
+    font-weight:$normalWeight;
+    @extend %pTagLineHeight;
+}

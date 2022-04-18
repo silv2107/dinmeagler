@@ -1,0 +1,40 @@
+////p tags lineheigth
+%pTagLineHeight{
+    line-height: 30px;
+}
+%smallpTagLineHeight{
+    line-height: 28px;
+}
+
+
+
+//H tags lineheigth
+%h1TagLineHeigth{
+    line-height: 4.1em;
+}
+%h2TagLineHeigth{
+    line-height: 3.38em;
+}
+%h3TagLineHeigth{
+    line-height: 2em;
+}
+
+//display flex and column
+%flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+%h4Styling {
+    color: $darkning;
+    font-size: $small;
+    font-weight: $mediumWeight;
+}
+
+%pStyling {
+    color: $veryDark;
+    font-size: $xsmall;
+    font-weight: $normalWeight;
+    @extend %pTagLineHeight;
+}
+

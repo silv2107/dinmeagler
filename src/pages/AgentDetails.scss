@@ -1,0 +1,21 @@
+@import "../variables";
+@import "../placeholders";
+
+.agentMain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    .aboutAgentWrapper {
+        .agentFormContainer {
+            border: #D3DEE8 1px solid;
+            margin: 40px;
+            padding: 40px;
+        }
+        width: 100%;
+        max-width: 35vw;
+        border: #D3DEE8 1px solid;
+    }
+}

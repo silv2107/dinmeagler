@@ -1,0 +1,27 @@
+@import "../variables";
+@import "../placeholders";
+
+.hero {
+    position: relative;
+    background-image: url("../img/hero2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px 0;
+    margin-bottom: 130px;
+    text-align: center;
+    color: white;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.692);
+    }
+    h1{
+        position: relative;
+        z-index: 1; 
+        font-size: $xLarge;
+        font-weight: $boldWeight;
+    }
+
+}

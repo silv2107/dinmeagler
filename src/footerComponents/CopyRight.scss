@@ -1,0 +1,13 @@
+@import "../variables";
+@import "../placeholders";
+
+.copyRight {
+    text-align: center;
+    color:white;
+    font-size:$xsmall;
+    font-weight: $normalWeight;
+    background-color: $darkblue;
+    margin: 0;
+    padding: 40px 0;
+    
+}

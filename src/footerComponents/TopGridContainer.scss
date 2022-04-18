@@ -1,0 +1,43 @@
+@import "../variables";
+@import "../placeholders";
+
+.topGridWrapper {
+    margin-top: 100px;
+    padding-top: 100px;
+    position: relative;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    .LowerBackground{
+        background-color: $grayish;
+        width: 100%;
+        position: absolute;
+        height: 250px;
+        bottom: 0;
+    }
+    .topGridContainer{
+        width: 100%;
+        max-width: 1100px;
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-rows: .5fr 1.3fr 250px;
+        grid-template-columns: repeat(2,1fr);
+        .item1 {
+            grid-area: 1 / 1 / span 1 / span 2; 
+            margin-bottom: 50px;
+        }
+        .item2 {
+            grid-area: 2 / 1 / span 2 / span 1;
+            padding-right: 130px;     
+        }
+        .item3 {
+            grid-area: 2 / 2 / span 1 / span 1;     
+
+        }
+        .item4 {
+            grid-area: 3 / 2 / span 1 / span 3;     
+
+        }
+    }
+}

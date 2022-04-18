@@ -1,0 +1,31 @@
+@import "../variables";
+@import "../placeholders";
+
+.forSale {
+    display: flex;
+    align-items: center;
+    &__imgDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: $imgTextBigPadding;
+        background-color: #EEF7FF;
+        padding: $imgTextPadding;
+    }
+    &__textDiv{
+        :first-child {
+            font-size: $smallMedium;
+            font-weight: $mediumWeight;
+            color: $darkning;
+            padding-bottom: 10px;
+            margin: 0;  
+        }
+
+        .text{
+                font-size: $xsmall;
+                font-weight: $normalWeight;
+                color: $veryDark;
+                margin: 0;
+            }
+    }
+}

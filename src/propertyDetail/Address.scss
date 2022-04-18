@@ -1,0 +1,12 @@
+@import "../variables";
+@import "../placeholders";
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    p{
+        margin: 0;
+        padding: 0;
+    }
+}

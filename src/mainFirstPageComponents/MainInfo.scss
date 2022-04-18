@@ -1,0 +1,30 @@
+@import "../variables";
+@import "../placeholders";
+
+.info {
+    display: flex;
+    gap: 15px;
+    &__imgBox {
+        background-color: #EEF7FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 40px;
+        width: 40px;
+        flex-shrink: 0;
+    }
+    &__description {
+        color: $veryDark;
+        font-size: $smallMedium;
+        h3 {
+            font-weight: $mediumWeight;
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+            padding-top: 5px;
+            @extend %pTagLineHeight;
+        }
+    }
+}

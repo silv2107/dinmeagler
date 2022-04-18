@@ -1,0 +1,22 @@
+@import "../variables";
+@import "../placeholders";
+
+.choosen {
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    &__title {
+        color: #263048;
+        font-size: $mediumLarge;
+        font-weight: $boldWeight;
+    }
+    &__text {
+        color: $veryDark;
+        font-size: 18px;
+        @extend %pTagLineHeight;
+
+    }
+}
+

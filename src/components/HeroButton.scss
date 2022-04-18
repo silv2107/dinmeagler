@@ -1,0 +1,13 @@
+@import "../variables";
+@import "../placeholders";
+
+.heroButton {
+    width: 7vw;
+    background-color:$darkblue;
+    color: white;
+    font-size: $xxsmall;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    z-index: 1;
+}

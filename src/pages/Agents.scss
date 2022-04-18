@@ -1,0 +1,18 @@
+@import "../variables";
+@import "../placeholders";
+
+.agentsMain {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 40px 25px;
+    .linkAgent {
+        text-align: center;
+        border: 1px #D3DEE8 solid;
+        padding-bottom: 20px;
+        text-decoration: none;
+        color: black;
+    }
+}

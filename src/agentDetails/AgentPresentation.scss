@@ -1,0 +1,15 @@
+@import "../variables";
+@import "../placeholders";
+
+.presentation {
+    padding: 0 40px;
+    h4 {
+        @extend %h4Styling;
+    }
+    // h4::before {
+    //     content: "";
+    // }
+    p {
+        @extend %pStyling;
+    }
+}

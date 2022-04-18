@@ -1,0 +1,53 @@
+@import "../variables";
+@import "../placeholders";
+
+
+.formAgent {
+    input {
+        margin-right: 0;
+    }
+    textarea {
+        margin-right: 0;
+    }
+    h4 {
+        @extend %h4Styling;
+    }
+    
+    p {
+        @extend %pStyling;
+    }
+    .nameEmailWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        .name {
+            @extend %flexColumn;
+        }
+        .email {
+            @extend %flexColumn;
+            padding: 0;
+        }
+    }
+    .subjectWrapper {
+        @extend %flexColumn;
+    }
+    .describe {
+        @extend %flexColumn;
+    }
+}
+
+.forLabel {
+    padding-bottom: 10px;
+    color: $veryDark;
+    font-size: $xsmall;
+    font-weight: $normalWeight;
+}
+
+.forInput {
+    margin-bottom: 20px;
+}
+
+.describe {
+    width: 100%;
+    margin-top: 10px;
+}

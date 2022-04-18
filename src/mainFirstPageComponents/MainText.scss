@@ -1,0 +1,15 @@
+@import "../variables";
+@import "../placeholders";
+
+.mainText {
+    color: $veryDark;
+    font-size: $smallMedium;
+    &__title{
+        font-weight: $mediumWeight;
+        margin: 0;
+    }
+    &__text {
+        font-size: 18px;
+        @extend %pTagLineHeight;
+    }
+}

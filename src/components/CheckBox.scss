@@ -1,0 +1,19 @@
+@import "../variables";
+@import "../placeholders";
+
+.checkBoxContainer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: $veryDark;
+        font-size: $xxsmall;
+        font-weight: $normalWeight;
+        input {
+            height: 20px;
+            width: 20px;
+            border: 1.5px solid #D3DEE8;
+            border-radius: 4px
+        }
+    
+    
+}

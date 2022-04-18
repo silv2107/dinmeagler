@@ -1,0 +1,44 @@
+@import "../variables";
+@import "../placeholders";
+
+.contactContainer {
+    height: 100%;
+    padding: 30px;
+    //border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    &:first-child::after{
+        content:"";
+        inset: 0;
+        border-bottom: #D3DEE8 2px solid;
+        margin: 0 40px;
+        position: absolute;
+
+    }
+    &:nth-child(2)::after{
+        content:"";
+        inset: 0;
+        border-bottom: #D3DEE8 2px solid;
+        margin: 0 40px;
+        position: absolute;
+
+    }
+    img {
+        height: 50px;
+        width: 50px;
+    }
+    h4 {
+        @extend %h4Styling;
+        margin: 0;
+        
+    }
+    p{
+        @extend %pStyling;
+        margin: 0;
+
+    }
+}

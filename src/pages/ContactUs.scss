@@ -1,0 +1,38 @@
+@import "../variables";
+@import "../placeholders";
+
+.contactMain {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    .contactPresentation {
+        width: 65%;
+        h3 {
+            color: $darkning;
+            font-size: $medium;
+            font-weight: $mediumWeight;
+        }
+        p {
+            @extend %pStyling;
+        }
+    }
+    .contactWrapper {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 30px;
+        .contactFormContainer {
+            padding: 40px;
+            border: solid #D3DEE8 1px;
+            //width: 100%;
+        }
+        .contactPageInfoWrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            //padding: 40px 0;
+            border: solid #D3DEE8  1px;
+            
+        }        
+    }
+}

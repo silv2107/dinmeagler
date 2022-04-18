@@ -1,0 +1,13 @@
+@import "../variables";
+@import "../placeholders";
+
+
+.HeroTitle {
+    position: relative;
+    text-align: center;
+    font-size:3em;
+    color: white;
+    font-weight: $boldWeight;
+    @extend %h1TagLineHeigth;
+    z-index: 1;
+}

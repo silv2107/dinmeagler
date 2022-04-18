@@ -1,0 +1,81 @@
+@import "../variables";
+@import "../placeholders";
+
+.subscribeWrapper {
+    position: relative;
+    background-image: url("../img/building.png");
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: cover; 
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.692);
+    }
+    &__container {
+        position: relative;
+        padding: 50px 0;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-self: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1100px;
+        color: white;
+        font-size: $xsmall;
+        font-weight: $mediumWeight;
+    }
+    &__form {
+        position: relative;
+            input {
+                width: 100%;
+            }
+            button {
+                position: absolute;
+                right: 5px;
+                top: 29%;
+                background-color: white;
+                border: none;
+                cursor: pointer;
+            }
+    }
+}
+
+.employeeWrapper {
+    text-align: center;
+    &__title {
+        color:#263048;
+        font-size: $mediumLarge;
+        font-weight: $boldWeight;
+        margin: 100px 0 0 0;
+    }
+    &__text {
+        color: $veryDark;
+        font-size: $xsmall;
+        font-weight: $normalWeight;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        padding: 25px 0 50px 0;
+        @extend %pStyling;
+    }
+    .listAgentsWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        padding: 20px;
+        margin: 40px auto 0 auto;
+        background-color: $darkblue;
+        font-size: $xsmall;
+        border-radius: 2px;
+        &__link {
+            text-decoration: none;    
+            color: white;
+            font-weight: $mediumWeight;
+    
+        }
+    }
+}

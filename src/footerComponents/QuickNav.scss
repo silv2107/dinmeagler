@@ -1,0 +1,27 @@
+@import "../variables";
+@import "../placeholders";
+
+.QuickNavWrapper{
+    
+    .QuickNavigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+
+
+    &__item{
+        list-style: none;
+        .QuickPrimaryNavigation__link{
+            text-decoration: none;
+            color: $veryDark;
+            font-size: $xsmall;
+            font-weight: $normalWeight;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, .35);
+            @extend %pTagLineHeight;
+            }
+        }
+    }
+}

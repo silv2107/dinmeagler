@@ -1,0 +1,21 @@
+@import "../variables";
+@import "../placeholders";
+
+.description {
+    width: 100%;
+    max-width: 550px;
+    justify-self: end;
+    font-size: $xsmall;
+    font-weight: $normalWeight;
+    color: $veryDark;
+    @extend %pTagLineHeight;
+    h3 {
+        font-size: $smallMedium;
+        font-weight: $mediumWeight;
+        color: #2A2C30;
+    }
+    p {
+        padding-right: 40px;
+    }
+}
+

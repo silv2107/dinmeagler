@@ -1,0 +1,20 @@
+@import "../variables";
+@import "../placeholders";
+
+.propertyList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    padding: 20px;
+    margin: 40px auto 0 auto;
+    background-color: $darkblue;
+    font-size: $xsmall;
+    border-radius: 2px;
+    &__link {
+        text-decoration: none;    
+        color: white;
+        font-weight: $mediumWeight;
+
+    }
+}

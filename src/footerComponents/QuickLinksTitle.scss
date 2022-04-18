@@ -1,0 +1,11 @@
+@import "../variables";
+@import "../placeholders";
+
+.quickLinks {
+    font-size: $smallMedium;
+    color: $darkning;
+    font-weight: $mediumWeight;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom:15px ;
+}

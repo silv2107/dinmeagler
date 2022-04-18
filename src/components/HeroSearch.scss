@@ -1,0 +1,19 @@
+@import "../variables";
+@import "../placeholders";
+
+.property{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    color: $darkning;
+    font-weight: $normalWeight;
+    font-size: $xxsmall;
+    width: 38vw;
+    background-color: white;
+    input, select, textarea{
+        margin-right: 10px;
+    }   
+}
+
+
+

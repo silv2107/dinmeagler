@@ -1,0 +1,27 @@
+@import "../variables";
+@import "../placeholders";
+
+.infoBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &__infoText {
+        color:$veryDark;
+        font-size: $xsmall;
+        font-weight: $mediumWeight;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .text {
+            margin: 0;
+        }
+        .info {
+            color:#7B7B7B;
+            font-size: $xxxsmall;
+            font-weight: $normalWeight;
+            margin: 0;
+        }
+    }
+    
+}

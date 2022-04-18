@@ -1,0 +1,24 @@
+@import "../variables";
+@import "../placeholders";
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 390px;
+    color: white;
+    font-weight: $normalWeight;
+    //padding-left: $mainPadding;
+
+    section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: $xsmall;
+        img {
+            padding-right: $buttonIconPadding;
+            height: 18px;
+            width: 18px;
+        }
+    }
+}

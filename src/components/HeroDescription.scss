@@ -1,0 +1,15 @@
+@import "../variables";
+@import "../placeholders";
+.HeroDescription{
+    background-color: white;
+    z-index: 1;
+
+    h3{
+        font-size: $small;
+        color: $darkning;
+        font-weight: $mediumWeight;
+        @extend %pTagLineHeight;
+        span{
+            border-bottom: black 3px solid;
+        }}
+}

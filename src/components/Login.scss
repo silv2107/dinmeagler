@@ -1,0 +1,35 @@
+@import "../variables";
+@import "../placeholders";
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    //padding-right: $mainPadding;
+    color: white;
+    width: 10%;
+    &__link{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: $xsmall;
+        color: white;
+        text-decoration: none;
+        font-weight: $normalWeight;
+        button {
+            background-color: $darkblue;
+            color: white;
+            border: none;
+            font-size: $xsmall;
+            font-weight: $normalWeight;
+            width: 69px;
+            cursor: pointer;
+
+        }
+        img{
+            height: 18px;
+            width: 18px;
+            padding-right: $buttonIconPadding;
+        }
+        
+    }
+}

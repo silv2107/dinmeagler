@@ -1,0 +1,55 @@
+@import "../variables";
+@import "../placeholders";
+
+.searchPropertyWrapper {
+    background-color: #EEF7FF;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    h3 {
+        position: relative;
+        padding: 25px;
+        margin: 0;
+        color: $darkning;
+        font-size: $smallMedium;
+        font-weight: $mediumWeight;
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-bottom: #D3DEE8 1px solid;
+            margin: 0 25px;
+        }        
+
+    }
+    &__form {
+        .searchItems {
+            padding: 25px;
+            position: relative;
+            button {
+                position: absolute;
+                left: 30px;
+                bottom: 38%;
+                height: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                border: none;
+                cursor: pointer;
+            }
+            input {
+                width: 100%;
+                padding-left: 30px;
+            }
+            
+            input::placeholder {
+                color: #7B7B7B;
+                font-size: $xxsmall;
+                font-weight: $normalWeight;
+            }
+            
+        }
+    }
+}

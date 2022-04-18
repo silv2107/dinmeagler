@@ -1,0 +1,38 @@
+@import "../variables";
+@import "../placeholders";
+
+.details {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    &__prise {
+        color: black;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-top: 1px #D3DEE8 solid;
+        margin: 0 20px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    &__energyRooms {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        color: $veryDark;
+        font-size: $xxsmall;
+        div {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             color: white;
+             width: 40px;
+             height: 40px;
+           
+        }
+    }
+}

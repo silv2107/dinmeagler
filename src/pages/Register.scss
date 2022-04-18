@@ -1,0 +1,45 @@
+@import "../variables";
+@import "../placeholders";
+
+.registerUserWrapper {
+    border: #D3DEE8 1px solid;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+    @extend %pStyling;
+    &__title {
+        color: $darkning;
+        font-size: $medium;
+        font-weight: $mediumWeight;
+        text-align: center;
+    }
+    &__form {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        .inputWrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .inputLabel {
+                padding: 20px 0 10px 0;
+            }
+        }
+        button {
+            margin-top: 25px;
+            width: 100%;
+            padding: 15px;
+            color: white;
+            font-size: $small;
+            background-color: $darkblue;
+            border: none;
+            cursor: pointer;
+
+        }
+    }
+}
